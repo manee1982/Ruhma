@@ -3,27 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2398E10B24B1B5AA00DA731D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2398E10A24B1B5AA00DA731D /* AppDelegate.swift */; };
 		2398E10D24B1B5AA00DA731D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2398E10C24B1B5AA00DA731D /* SceneDelegate.swift */; };
-		2398E10F24B1B5AA00DA731D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2398E10E24B1B5AA00DA731D /* ViewController.swift */; };
+		2398E10F24B1B5AA00DA731D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2398E10E24B1B5AA00DA731D /* HomeVC.swift */; };
 		2398E11224B1B5AA00DA731D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2398E11024B1B5AA00DA731D /* Main.storyboard */; };
 		2398E11424B1B5AC00DA731D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2398E11324B1B5AC00DA731D /* Assets.xcassets */; };
 		2398E11724B1B5AC00DA731D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2398E11524B1B5AC00DA731D /* LaunchScreen.storyboard */; };
+		2398E12524B1B6BC00DA731D /* Http.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2398E12424B1B6BC00DA731D /* Http.swift */; };
+		2398E12724B1B6C900DA731D /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2398E12624B1B6C900DA731D /* Config.swift */; };
+		2398E12924B1B6DB00DA731D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2398E12824B1B6DB00DA731D /* Extensions.swift */; };
+		2398E12B24B1B6EA00DA731D /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2398E12A24B1B6EA00DA731D /* Protocols.swift */; };
+		2398E12D24B1B6FA00DA731D /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2398E12C24B1B6FA00DA731D /* AppColors.swift */; };
+		2398E12F24B1B70600DA731D /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2398E12E24B1B70600DA731D /* AppFonts.swift */; };
+		2398E13124B1B71800DA731D /* AppViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2398E13024B1B71800DA731D /* AppViews.swift */; };
+		2398E13324B1B7C800DA731D /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2398E13224B1B7C800DA731D /* Alert.swift */; };
+		2398E13724B1C22E00DA731D /* Hacen-Algeria.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2398E13424B1C22E00DA731D /* Hacen-Algeria.ttf */; };
+		2398E13824B1C22E00DA731D /* Hacen-Algeria-Bd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2398E13524B1C22E00DA731D /* Hacen-Algeria-Bd.ttf */; };
+		2398E13924B1C22E00DA731D /* Hacen-Algeria-Hd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2398E13624B1C22E00DA731D /* Hacen-Algeria-Hd.ttf */; };
+		2398E13D24B1C23800DA731D /* Hacen-Trarza-Lt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2398E13A24B1C23800DA731D /* Hacen-Trarza-Lt.ttf */; };
+		2398E13E24B1C23800DA731D /* Hacen-Trarza.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2398E13B24B1C23800DA731D /* Hacen-Trarza.ttf */; };
+		2398E13F24B1C23800DA731D /* Hacen-Trarza-Hd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2398E13C24B1C23800DA731D /* Hacen-Trarza-Hd.ttf */; };
+		68B981208420EFB4952F72FD /* Pods_Ruhma.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C42ABE7C1E80ACD3944051A /* Pods_Ruhma.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2398E10724B1B5AA00DA731D /* Ruhma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ruhma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2398E10A24B1B5AA00DA731D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2398E10C24B1B5AA00DA731D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2398E10E24B1B5AA00DA731D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2398E10E24B1B5AA00DA731D /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		2398E11124B1B5AA00DA731D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2398E11324B1B5AC00DA731D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2398E11624B1B5AC00DA731D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2398E11824B1B5AC00DA731D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2398E12424B1B6BC00DA731D /* Http.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Http.swift; sourceTree = "<group>"; };
+		2398E12624B1B6C900DA731D /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		2398E12824B1B6DB00DA731D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2398E12A24B1B6EA00DA731D /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		2398E12C24B1B6FA00DA731D /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		2398E12E24B1B70600DA731D /* AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
+		2398E13024B1B71800DA731D /* AppViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViews.swift; sourceTree = "<group>"; };
+		2398E13224B1B7C800DA731D /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		2398E13424B1C22E00DA731D /* Hacen-Algeria.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hacen-Algeria.ttf"; sourceTree = "<group>"; };
+		2398E13524B1C22E00DA731D /* Hacen-Algeria-Bd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hacen-Algeria-Bd.ttf"; sourceTree = "<group>"; };
+		2398E13624B1C22E00DA731D /* Hacen-Algeria-Hd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hacen-Algeria-Hd.ttf"; sourceTree = "<group>"; };
+		2398E13A24B1C23800DA731D /* Hacen-Trarza-Lt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hacen-Trarza-Lt.ttf"; sourceTree = "<group>"; };
+		2398E13B24B1C23800DA731D /* Hacen-Trarza.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hacen-Trarza.ttf"; sourceTree = "<group>"; };
+		2398E13C24B1C23800DA731D /* Hacen-Trarza-Hd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hacen-Trarza-Hd.ttf"; sourceTree = "<group>"; };
+		492FA0DE539B023404B18B7B /* Pods-Ruhma.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ruhma.release.xcconfig"; path = "Target Support Files/Pods-Ruhma/Pods-Ruhma.release.xcconfig"; sourceTree = "<group>"; };
+		8C42ABE7C1E80ACD3944051A /* Pods_Ruhma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ruhma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA45B00CBF9FA6487DC5CAC2 /* Pods-Ruhma.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ruhma.debug.xcconfig"; path = "Target Support Files/Pods-Ruhma/Pods-Ruhma.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68B981208420EFB4952F72FD /* Pods_Ruhma.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +75,8 @@
 			children = (
 				2398E10924B1B5AA00DA731D /* Ruhma */,
 				2398E10824B1B5AA00DA731D /* Products */,
+				3AFB9FC54252C70C1736C96D /* Pods */,
+				BD5878552095B369EDB8D711 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +91,94 @@
 		2398E10924B1B5AA00DA731D /* Ruhma */ = {
 			isa = PBXGroup;
 			children = (
+				2398E12324B1B5F800DA731D /* Fonts */,
+				2398E12124B1B5E900DA731D /* Uti's */,
+				2398E12224B1B5EF00DA731D /* Helpers */,
+				2398E11E24B1B5C600DA731D /* Controllers */,
+				2398E11F24B1B5D400DA731D /* Models */,
+				2398E12024B1B5DC00DA731D /* Views */,
 				2398E10A24B1B5AA00DA731D /* AppDelegate.swift */,
 				2398E10C24B1B5AA00DA731D /* SceneDelegate.swift */,
-				2398E10E24B1B5AA00DA731D /* ViewController.swift */,
 				2398E11024B1B5AA00DA731D /* Main.storyboard */,
 				2398E11324B1B5AC00DA731D /* Assets.xcassets */,
 				2398E11524B1B5AC00DA731D /* LaunchScreen.storyboard */,
 				2398E11824B1B5AC00DA731D /* Info.plist */,
 			);
 			path = Ruhma;
+			sourceTree = "<group>";
+		};
+		2398E11E24B1B5C600DA731D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2398E10E24B1B5AA00DA731D /* HomeVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2398E11F24B1B5D400DA731D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2398E12024B1B5DC00DA731D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2398E12124B1B5E900DA731D /* Uti's */ = {
+			isa = PBXGroup;
+			children = (
+				2398E12624B1B6C900DA731D /* Config.swift */,
+				2398E12424B1B6BC00DA731D /* Http.swift */,
+				2398E12824B1B6DB00DA731D /* Extensions.swift */,
+				2398E12A24B1B6EA00DA731D /* Protocols.swift */,
+			);
+			path = "Uti's";
+			sourceTree = "<group>";
+		};
+		2398E12224B1B5EF00DA731D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2398E12C24B1B6FA00DA731D /* AppColors.swift */,
+				2398E12E24B1B70600DA731D /* AppFonts.swift */,
+				2398E13024B1B71800DA731D /* AppViews.swift */,
+				2398E13224B1B7C800DA731D /* Alert.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2398E12324B1B5F800DA731D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2398E13524B1C22E00DA731D /* Hacen-Algeria-Bd.ttf */,
+				2398E13624B1C22E00DA731D /* Hacen-Algeria-Hd.ttf */,
+				2398E13424B1C22E00DA731D /* Hacen-Algeria.ttf */,
+				2398E13C24B1C23800DA731D /* Hacen-Trarza-Hd.ttf */,
+				2398E13A24B1C23800DA731D /* Hacen-Trarza-Lt.ttf */,
+				2398E13B24B1C23800DA731D /* Hacen-Trarza.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3AFB9FC54252C70C1736C96D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA45B00CBF9FA6487DC5CAC2 /* Pods-Ruhma.debug.xcconfig */,
+				492FA0DE539B023404B18B7B /* Pods-Ruhma.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD5878552095B369EDB8D711 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C42ABE7C1E80ACD3944051A /* Pods_Ruhma.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2398E11B24B1B5AC00DA731D /* Build configuration list for PBXNativeTarget "Ruhma" */;
 			buildPhases = (
+				C2CE7DDC48E37138BB5DF970 /* [CP] Check Pods Manifest.lock */,
 				2398E10324B1B5AA00DA731D /* Sources */,
 				2398E10424B1B5AA00DA731D /* Frameworks */,
 				2398E10524B1B5AA00DA731D /* Resources */,
+				27A678A2AC61679C1796032C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +243,74 @@
 			files = (
 				2398E11724B1B5AC00DA731D /* LaunchScreen.storyboard in Resources */,
 				2398E11424B1B5AC00DA731D /* Assets.xcassets in Resources */,
+				2398E13824B1C22E00DA731D /* Hacen-Algeria-Bd.ttf in Resources */,
+				2398E13F24B1C23800DA731D /* Hacen-Trarza-Hd.ttf in Resources */,
+				2398E13724B1C22E00DA731D /* Hacen-Algeria.ttf in Resources */,
+				2398E13E24B1C23800DA731D /* Hacen-Trarza.ttf in Resources */,
+				2398E13924B1C22E00DA731D /* Hacen-Algeria-Hd.ttf in Resources */,
 				2398E11224B1B5AA00DA731D /* Main.storyboard in Resources */,
+				2398E13D24B1C23800DA731D /* Hacen-Trarza-Lt.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27A678A2AC61679C1796032C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ruhma/Pods-Ruhma-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ruhma/Pods-Ruhma-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ruhma/Pods-Ruhma-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2CE7DDC48E37138BB5DF970 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ruhma-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2398E10324B1B5AA00DA731D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2398E10F24B1B5AA00DA731D /* ViewController.swift in Sources */,
+				2398E13124B1B71800DA731D /* AppViews.swift in Sources */,
+				2398E10F24B1B5AA00DA731D /* HomeVC.swift in Sources */,
+				2398E12924B1B6DB00DA731D /* Extensions.swift in Sources */,
+				2398E12B24B1B6EA00DA731D /* Protocols.swift in Sources */,
+				2398E12F24B1B70600DA731D /* AppFonts.swift in Sources */,
+				2398E12524B1B6BC00DA731D /* Http.swift in Sources */,
+				2398E12724B1B6C900DA731D /* Config.swift in Sources */,
+				2398E12D24B1B6FA00DA731D /* AppColors.swift in Sources */,
+				2398E13324B1B7C800DA731D /* Alert.swift in Sources */,
 				2398E10B24B1B5AA00DA731D /* AppDelegate.swift in Sources */,
 				2398E10D24B1B5AA00DA731D /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +454,7 @@
 		};
 		2398E11C24B1B5AC00DA731D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA45B00CBF9FA6487DC5CAC2 /* Pods-Ruhma.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +473,7 @@
 		};
 		2398E11D24B1B5AC00DA731D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 492FA0DE539B023404B18B7B /* Pods-Ruhma.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
