@@ -1,0 +1,20 @@
+PODS:
+  - Localize-Swift (2.0.0)
+  - NVActivityIndicatorView/AppExtension (4.8.0)
+
+DEPENDENCIES:
+  - Localize-Swift (~> 2.0)
+  - NVActivityIndicatorView/AppExtension
+
+SPEC REPOS:
+  trunk:
+    - Localize-Swift
+    - NVActivityIndicatorView
+
+SPEC CHECKSUMS:
+  Localize-Swift: c798ec9286494866f7068f85f7c71283ac5bdab4
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+
+PODFILE CHECKSUM: 3024650ac29c47211354dcc6b4e6dc8852489bc7
+
+COCOAPODS: 1.8.4
